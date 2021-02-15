@@ -1,5 +1,5 @@
 # Lab 01 - Gates
 
 My depository:
-[Link to my depository](https://github.com/xhroch01/Digital-electronics-1)
+[Link](https://github.com/xhroch01/Digital-electronics-1)
 
