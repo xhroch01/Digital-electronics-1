@@ -1,5 +1,4 @@
-# Digital-electronics-1
+# Digital electronics 1
 
-## Nadpis druhe urovne
+## Labs
 
-**telefon**
