@@ -2,6 +2,6 @@
 
 ## Subject - Digital electronics 1
 
-### Link to VUT webside
+Link to VUT webside
 [VUT webside](https://www.vutbr.cz/)
 
