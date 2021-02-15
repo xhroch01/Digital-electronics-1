@@ -1,4 +1,7 @@
-# Digital electronics 1
+# Brno - UNIVERSITY OF TECHNOLOGY
 
-## Labs
+## Subject - Digital electronics 1
+
+### Link to VUT webside
+[VUT webside](https://www.vutbr.cz/)
 
