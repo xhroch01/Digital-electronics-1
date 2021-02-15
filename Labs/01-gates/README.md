@@ -3,4 +3,5 @@
 My depository:
 [Link](https://github.com/xhroch01/Digital-electronics-1)
 
-[Link to my EDA Playground:] (https://www.edaplayground.com/x/aMPV)
+My EDA Playground:
+[Link to my EDA Playground:](https://www.edaplayground.com/x/aMPV)
