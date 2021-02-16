@@ -70,7 +70,7 @@ end architecture dataflow;
 ## My EDA Playground - Distributive laws:
 [Link to EDA](https://www.edaplayground.com/x/i9sa)
 
-![Distributive law](IMAGES/distributive.png)
+![Distributive law](IMAGES/distributive.PNG)
 
 ```------------------------------------------------------------------------
 --
