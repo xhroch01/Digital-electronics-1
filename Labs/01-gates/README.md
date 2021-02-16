@@ -4,7 +4,7 @@ My depository:
 [Link](https://github.com/xhroch01/Digital-electronics-1)
 
 ## My EDA Playground - De Morgan laws:
-[Link]()
+[Link](https://www.edaplayground.com/x/aMPV)
 
 ## My EDA Playground - Distributive laws:
 [Link]()
