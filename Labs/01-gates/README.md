@@ -68,4 +68,4 @@ begin
 end architecture dataflow;
 ```
 ## My EDA Playground - Distributive laws:
-[Link]()
+[Link to EDA](https://www.edaplayground.com/x/i9sa)
