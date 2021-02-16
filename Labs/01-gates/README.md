@@ -5,6 +5,6 @@ My depository:
 
 ## My EDA Playground - De Morgan laws:
 [Link to EDA](https://www.edaplayground.com/x/aMPV)
-(IMAGES/demorgan.jpg)
+(IMAGES/demorgan.png)
 ## My EDA Playground - Distributive laws:
 [Link]()
