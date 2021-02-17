@@ -28,6 +28,7 @@
 
 ## B>A
 ![B>A](IMAGES/BvetsiA.PNG)
-b1 * /a1 + b1 * b0 * /a0 + b0 * /a1 * /a0
+
+B > A = b1 * /a1 + b1 * b0 * /a0 + b0 * /a1 * /a0
 
 ``` 
