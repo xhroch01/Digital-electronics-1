@@ -220,4 +220,17 @@ begin
 
 end architecture Behavioral;
 ```
+## Hlášení chyby:
+[2021-02-17 12:30:44 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
+analyze design.vhd
+analyze testbench.vhd
+elaborate tb_comparator_2bit
+testbench.vhd:51:9:@0ms:(report note): Stimulus process started
+testbench.vhd:57:9:@100ns:(assertion error): Test failed for input combination: 0000, 0000
+testbench.vhd:134:9:@1us:(report note): Stimulus process finished
+Finding VCD file...
+./dump.vcd
+[2021-02-17 12:30:44 EST] Opening EPWave...
+Done
 
+[Link to EDA](https://www.edaplayground.com/x/tfBs)
