@@ -1,4 +1,4 @@
-# Ukol 1 - pravdivostni tabulka
+# Pravdivostni tabulka
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B > A** | **B = A** | **B < A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -30,7 +30,7 @@
 ## B less A 
 (b1 + b0 + a1 + a0) * (b1 + /b0 + a1 + a0) * (b1 + /b0 + a1 + /a0) * (/b1 + b0 + a1 + a0) * (/b1 + b0 + a1 + /a0) * (/b1 + b0 + /a1 + a0) * (/b1 + /b0 + a1 + a0) * (/b1 + /b0 + a1 + /a0) * (/b1 + /b0 + /a1 + a0) * (/b1 + /b0 + /a1 + /a0)
 
-# Karnaugh Maps
+# Karnaphova mapa
 
 ## B>A
 ![B>A](IMAGES/BvetsiA.PNG)
