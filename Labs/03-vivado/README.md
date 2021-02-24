@@ -107,3 +107,5 @@ begin
 
 end architecture testbench;
 ```
+## Waveform
+![Waveform](IMAGES/waveform.PNG)
