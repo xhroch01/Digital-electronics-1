@@ -1,4 +1,5 @@
-## VHDL Design
+## VHDL Architecture
+
 ```vhdl
 architecture Behavioral of amux_2bit_4to1 is
 begin
