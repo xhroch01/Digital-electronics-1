@@ -88,7 +88,7 @@ begin
 end architecture testbench;
 ```
 ## Waveform
-![Waveform](IMAGES/waveform.PNG)
+![Waveform](IMAGES/waveform1.PNG)
 
 ## Schema
 ![schema](IMAGES/schema.PNG)
