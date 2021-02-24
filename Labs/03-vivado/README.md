@@ -109,3 +109,6 @@ end architecture testbench;
 ```
 ## Waveform
 ![Waveform](IMAGES/waveform.PNG)
+
+## Schema
+[Link to Schema](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual)
