@@ -12,7 +12,8 @@ end architecture Behavioral;
 ```
 
 ## VHDL Testbench
-```
+```vhdl
+
 library ieee;
 use ieee.std_logic_1164.all;
 
