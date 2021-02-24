@@ -94,5 +94,21 @@ end architecture testbench;
 ![schema](IMAGES/schema.PNG)
 
 ## Tutorial
+![1](IMAGES/1.PNG)
 
+![2](IMAGES/2.PNG)
+
+![3](IMAGES/3.PNG)
+
+![4](IMAGES/4.PNG)
+
+![5](IMAGES/5.PNG)
+
+![6](IMAGES/6.PNG)
+
+![7](IMAGES/7.PNG)
+
+![8](IMAGES/8.PNG)
+
+![9](IMAGES/9.PNG)
 
