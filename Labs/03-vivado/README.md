@@ -112,4 +112,5 @@ end architecture testbench;
 
 ## Schema
 ![schema](IMAGES/schema.PNG)
+
 [Link to Schema](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual)
