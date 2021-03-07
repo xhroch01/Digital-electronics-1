@@ -145,7 +145,7 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ## Simulation run
-![1](IMAGES/prubeh1.PNG)
+![1](IMAGES/prubeh0.PNG)
 
 ```vhdl
 -- Instance (copy) of hex_7seg entity
