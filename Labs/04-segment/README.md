@@ -243,3 +243,4 @@ begin
 end architecture Behavioral;
 ```
 
+![1](IMAGES/prubehy2.PNG)
