@@ -109,4 +109,4 @@ begin
                 
         end case;
     end process p_7seg_decoder;
-end Behavioral;
+end architecture Behavioral;
