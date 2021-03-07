@@ -18,3 +18,5 @@ Decoder truth table for common anode 7-segment display.
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+![1](IMAGES/prubeh.PNG)
