@@ -11,6 +11,8 @@
 
 ![1](IMAGES/schema.jpg)
 
+## Archirecture
+
 ```vhdl
 architecture behavioral of cnt_up_down is
 
@@ -43,3 +45,6 @@ begin
 
 end architecture behavioral;
 ```
+
+![1](IMAGES/prubeh1counter.PNG)
+
