@@ -187,3 +187,6 @@ end architecture Behavioral;
 
 ![1](IMAGES/blokschema4bit.PNG)
 
+## Image 16 bit
+![1](IMAGES/blokschema16bit.PNG)
+
