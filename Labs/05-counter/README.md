@@ -90,7 +90,7 @@ end architecture behavioral;
     end process p_stimulus;
 ```
 
-## 
+## 4 bit counter
 
 ```vhdl
 library IEEE;
@@ -187,3 +187,6 @@ begin
 
 end architecture Behavioral;
 ```
+
+![1](IMAGES/blokschema4bit.PNG)
+
