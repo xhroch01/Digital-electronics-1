@@ -59,7 +59,6 @@ begin
         end if;
     end process p_cnt_up_down;
 
-    -- Output must be retyped from "unsigned" to "std_logic_vector"
     cnt_o <= std_logic_vector(s_cnt_local);
 
 end architecture behavioral;
