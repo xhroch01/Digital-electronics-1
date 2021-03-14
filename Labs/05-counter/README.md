@@ -11,3 +11,35 @@
 
 ![1](IMAGES/schema.jpg)
 
+```vhdl
+architecture behavioral of cnt_up_down is
+
+    -- Local counter
+    signal s_cnt_local : unsigned(g_CNT_WIDTH - 1 downto 0);
+
+begin
+
+    p_cnt_up_down : process(clk)
+    begin
+        if rising_edge(clk) then
+       
+            if (reset = '1') then               
+                s_cnt_local <= (others => '0'); 
+
+            elsif (en_i = '1') then  
+                 
+                if (cnt_up_i = '1') then
+                    s_cnt_local <= s_cnt_local + 1;
+                    
+                else
+                    s_cnt_local <= s_cnt_local - 1;
+                    
+                end if;
+            end if;
+        end if;
+    end process p_cnt_up_down;
+
+    cnt_o <= std_logic_vector(s_cnt_local);
+
+end architecture behavioral;
+```
