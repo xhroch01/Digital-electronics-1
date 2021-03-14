@@ -138,7 +138,6 @@ begin
     -- Instance (copy) of clock_enable entity
     clk_en0 : entity work.clock_enable
         generic map(
-            --- WRITE YOUR CODE HERE
             g_MAX => 100000000
         )
         
@@ -153,11 +152,9 @@ begin
     -- Instance (copy) of cnt_up_down entity
     bin_cnt0 : entity work.cnt_up_down
         generic map(
-            --- WRITE YOUR CODE HERE
             g_CNT_WIDTH => 4
         )
         port map(
-            --- WRITE YOUR CODE HERE
             clk         =>  CLK100MHZ,
             reset       =>  BTNC,
             en_i        =>  s_en,
@@ -189,4 +186,7 @@ end architecture Behavioral;
 ```
 
 ![1](IMAGES/blokschema4bit.PNG)
+
+## Image 16 bit
+![1](IMAGES/blokschema16bit.PNG)
 
