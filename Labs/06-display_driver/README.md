@@ -1,1 +1,1 @@
-![1](IMAGES/prubeh.jpg)
+![1](IMAGES/prubeh.PNG)
