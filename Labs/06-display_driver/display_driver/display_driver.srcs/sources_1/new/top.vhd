@@ -62,6 +62,7 @@ begin
         port map(
             clk        => CLK100MHZ,
             reset      => BTNC,
+            
             data0_i(3) => SW(3),
             data0_i(2) => SW(2),
             data0_i(1) => SW(1),
@@ -81,6 +82,26 @@ begin
             data3_i(2) => SW(14),
             data3_i(1) => SW(13),
             data3_i(0) => SW(12),
+            --------------------
+            data4_i(3) => SW(3), 
+            data4_i(2) => SW(2), 
+            data4_i(1) => SW(1), 
+            data4_i(0) => SW(0), 
+            --
+            data5_i(3) => SW(7), 
+            data5_i(2) => SW(6), 
+            data5_i(1) => SW(5), 
+            data5_i(0) => SW(4), 
+            --
+            data6_i(3) => SW(11),
+            data6_i(2) => SW(10),
+            data6_i(1) => SW(9), 
+            data6_i(0) => SW(8), 
+            --
+            data7_i(3) => SW(15),
+            data7_i(2) => SW(14),
+            data7_i(1) => SW(13),
+            data7_i(0) => SW(12),
             
             dig_o => AN(4-1 downto 0),
             

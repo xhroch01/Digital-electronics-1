@@ -25,6 +25,10 @@ entity driver_7seg_4digits is
         data1_i : in  std_logic_vector(4 - 1 downto 0);
         data2_i : in  std_logic_vector(4 - 1 downto 0);
         data3_i : in  std_logic_vector(4 - 1 downto 0);
+        data4_i : in  std_logic_vector(4 - 1 downto 0);
+        data5_i : in  std_logic_vector(4 - 1 downto 0);
+        data6_i : in  std_logic_vector(4 - 1 downto 0);
+        data7_i : in  std_logic_vector(4 - 1 downto 0);
         -- 4-bit input value for decimal points
         dp_i    : in  std_logic_vector(4 - 1 downto 0);
         -- Decimal point for specific digit
