@@ -1,3 +1,5 @@
+## Timing diagram figure for displaying value 3.142
+
 ![1](IMAGES/prubeh.PNG)
 
 ## Listing of VHDL code of the process p_mux with syntax highlighting.
