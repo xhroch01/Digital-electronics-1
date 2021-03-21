@@ -35,3 +35,9 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
     end process p_mux;
 
 ```
+
+## Listing of VHDL testbench file tb_driver_7seg_4digits with syntax highlighting and asserts
+
+## Screenshot with simulated time waveforms; always display all inputs and outputs
+
+## Listing of VHDL architecture of the top layer
