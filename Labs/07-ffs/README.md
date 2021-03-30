@@ -34,32 +34,25 @@
 
 
 ## D latch
+### P_D_Latch
 ``` vhdl
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+p_d_latch : process(d, arst, en)
+    begin
+        if (arst = '1') then
+            q       <= '0';
+            q_bar   <= '1';
+            
+        elsif (en = '1') then
+            q       <= d;
+            q_bar   <= not d;
+            
+        end if;
+    end process p_d_latch;
+```
 
-entity tb_d_latch is
---  Port ( );
-end tb_d_latch;
+### P_reset and Stimulus process
 
-architecture Behavioral of tb_d_latch is
-
-    signal s_en     : std_logic;
-    signal s_arst   : std_logic;
-    signal s_d      : std_logic;
-    signal s_q      : std_logic;
-    signal s_q_bar  : std_logic;
-
-begin
-    uut_d_latch : entity work.d_latch
-    port map (
-        en    => s_en,
-        arst  => s_arst,
-        d     => s_d,
-        q     => s_q,
-        q_bar => s_q_bar
-    );
-    
+``` vhdl
     p_reset_gen : process
         begin
             s_arst <= '0';
@@ -171,3 +164,49 @@ begin
 end Behavioral;
 ```
 ![1](IMAGES/prubeh.PNG)
+
+## processes p_d_ff_arst
+``` vhdl
+architecture Behavioral of d_ff_arst is
+
+begin
+    p_d_ff_arst : process (clk, arst)
+        begin
+            if (arst = '1') then
+                q       <= '0';
+                q_bar   <= '1';
+            
+            elsif rising_edge(clk) then
+                q       <= d;
+                q_bar   <= not d;
+            
+            end if;
+    end process p_d_ff_arst;
+
+end Behavioral;
+```
+![1](IMAGES/prubeharst.PNG)
+
+
+## processes p_jk_ff_rst
+``` vhdl
+p_jk_ff_rst : process (clk)
+        begin
+            if rising_edge(clk) then
+                if (rst = '1') then
+                    s_q <= '0';
+                    else
+                        if (j = '0' and k = '0') then
+                            s_q <= s_q;
+                        elsif (j = '0' and k = '1') then
+                            s_q <= '0';
+                        elsif (j = '1' and k = '0') then
+                            s_q <= '1';
+                        else  (j = '1' and k = '1') then
+                            s_q <= not s_q;
+                        end if;
+                    end if;
+                end if;
+    end process p_jk_ff_rst;
+```
+
