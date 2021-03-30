@@ -170,3 +170,4 @@ begin
 
 end Behavioral;
 ```
+![1](IMAGES/prubeh.PNG)
