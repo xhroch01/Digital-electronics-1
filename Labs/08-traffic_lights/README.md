@@ -21,6 +21,8 @@
 
 ![1](IMAGES/Kruh.PNG)
 
+## Sequential process
+
 ``` vhdl
 p_traffic_fsm : process(clk)
     begin
@@ -106,6 +108,7 @@ p_traffic_fsm : process(clk)
         end if; -- Rising edge
     end process p_traffic_fsm;
 ```
+## Combinatorial process
 
 ``` vhdl
 p_output_fsm : process(s_state)
