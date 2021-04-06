@@ -8,7 +8,7 @@
 
 ### Figure with connection of RGB LEDs on Nexys A7 board and completed table with color settings.
 
-![Figure with connection of RGB LEDs on Nexys A7 board](IMAGES/schemaLED.jpg)
+![1](IMAGES/schema.PNG)
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
