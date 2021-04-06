@@ -20,3 +20,7 @@
 # 2
 
 ![1](IMAGES/Kruh.PNG)
+
+
+
+![1](IMAGES/prubeh.PNG)
