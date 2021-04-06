@@ -19,4 +19,4 @@
 
 # 2
 
-![1](IMAGES/kruh.PNG)
+![1](IMAGES/Kruh.PNG)
